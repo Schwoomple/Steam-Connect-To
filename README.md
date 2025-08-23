@@ -6,10 +6,10 @@ This is a tweaked version of [SetCr4's 'GModJoiner'](https://github.com/SetCr4/G
 
 ## Usage
 
-HTTPS Link with query parameters. (replace placeholders; PORT, etc.)
+HTTPS Link with query parameters. (replace placeholders; PORT, etc.)  
 `https://schwoomple.github.io/Steam-Connect-To/?ip=IPADDRESS&port=PORT&pass=PASSWORD`
 
-Clean Discord format.
+Clean Discord format.  
 `[Click here to join SERVERNAME](https://schwoomple.github.io/Steam-Connect-To/?ip=IPADDRESS&port=PORT&pass=PASSWORD)`
 
 
