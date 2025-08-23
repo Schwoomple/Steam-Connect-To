@@ -102,7 +102,6 @@ if (!port) port = GMSERVER_PORT;
 if (!ip) {
 	document.getElementById("error-help").style.display = "block";
 	document.getElementById("error-help").innerHTML = "The IP address is missing. Please provide it as a query parameter.";
-	document.getElementById("gmod-help").style.display = "none";
 	document.getElementById("steam-help").style.display = "none";
 	document.getElementById("direct-help").style.display = "none";
 	document.getElementById("credits").style.display = "none";
@@ -113,7 +112,6 @@ if (!ip) {
 if (!port) {
 	document.getElementById("error-help").style.display= "block";
 	document.getElementById("error-help").innerHTML = "!!  Missing Port  !!    Please provide it as a query parameter.";
-	document.getElementById("gmod-help").style.display = "none";
 	document.getElementById("steam-help").style.display = "none";
 	document.getElementById("direct-help").style.display = "none";
 	document.getElementById("credits").style.display = "none";
@@ -124,7 +122,6 @@ if (!port) {
 if (!ip && !port) {
 	document.getElementById("error-help").style.display= "block";
 	document.getElementById("error-help").innerHTML = "!!  IP & Port are Both Missing !! Please provide them as query parameters.";
-	document.getElementById("gmod-help").style.display = "none";
 	document.getElementById("steam-help").style.display = "none";
 	document.getElementById("direct-help").style.display = "none";
 	document.getElementById("credits").style.display = "none";
@@ -139,15 +136,10 @@ if(ip&&port) {
 	// Steam Connect Url
 	let steamconnectUrl = "steam://connect/" + ip + ":" + port;
 	if (pass != "") steamconnectUrl += "/" + pass;
-	// GMod Command
-	let gmodcmd = "connect " + ip + ":" + port;
-	if (pass != "") gmodcmd += "; password " + pass + ";";
 	// Set Footer Info
-	let gmodcmdinfo = document.getElementById("GCMD");
 	let steaminfo = document.getElementById("STEAMJOIN");
 	let serverinfo = document.getElementById("SERVER");
 	let passinfo = document.getElementById("PASS");
-	gmodcmdinfo.innerHTML = gmodcmd;
 	steaminfo.href = steamconnectUrl;
 	serverinfo.innerHTML = ip + ":" + port;
 	if (pass != "") passinfo.innerHTML = `<i class="fa-solid fa-key"></i> ` + pass;
