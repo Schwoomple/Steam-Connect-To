@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: linear-gradient(80deg, #1a0033, #3a0170);
+    background-image: linear-gradient(80deg, #121519, #00b9ff47);
     overflow: hidden;
     font-family: 'poppins';
 }
@@ -16,7 +16,7 @@ body.light{
     height: 80vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #ac05a4, #f72b9180);
+    background-image: linear-gradient(80deg, #131a5c, #37ffbb69);
     filter: blur(80px);
     animation: down 40s infinite;
 }
@@ -31,7 +31,7 @@ body.light{
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #f32596cc, #f37ab7);
+    background-image: linear-gradient(80deg, #288e72cc, #242dbead);
     filter: blur(80px);
     animation: up 30s infinite;
 }
@@ -45,7 +45,7 @@ body.light{
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #6f05ac, #7a34fdcc);
+    background-image: linear-gradient(80deg, #1fe7d7e0, #267a192e);
     filter: blur(80px);
     animation: left 30s 1s infinite;
 }
