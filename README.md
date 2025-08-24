@@ -15,6 +15,6 @@ Clean Discord format.
 
 | Parameter | Meaning | Required? |
 | - | - | - |
-| `ip` | Ip Address of your GMod Server | :heavy_check_mark: |
-| `port` | Port of your Steam Server | :heavy_check_mark: |
+| `ip` | Ip Address of your Server | :heavy_check_mark: |
+| `port` | Port of your Server | :heavy_check_mark: |
 | `pass` | Password to join (Default: None) | :x: |
